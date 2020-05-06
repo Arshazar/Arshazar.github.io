@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Neon Bugler';
+    font-style: normal;
+    font-weight: 200;
+    src:
+        url('./Neon Bugler.otf')
+}
+
+.app {
+    font-family: 'Neon Bugler';
+}
+
+.el {
+    text-shadow: 0 0 0 #800E0B, 0 0 0 #800E0B, 0 0 0 #800E0B, 0 0 0 #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+    cursor: pointer;
+}
+
+.el:hover {
+    /*text-shadow: 0 0 0 #FA1C16, 0 0 0 #FA1C16, 0 0 0 #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;*/
+    color: #FED128;
+}
+
+.el2 {
+    color: #426DFB;
+    /*text-shadow: 0 0 3vw #2356FF;*/
+}
+
+.el2:hover {
+    /*text-shadow: 0 0 0 #1041FF, 0 0 0 #1041FF, 0 0 0 #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;*/
+    color: #28D7FE;
+}
+
+.neon {
+    animation: neon 2s ease infinite;
+    -moz-animation: neon 2s ease infinite;
+    -webkit-animation: neon 2s ease infinite;
+}
+
+.pic {
+    width: 60%;
+    height: 60%;
+}
+
+@keyframes neon {
+    0%,
+    100% {
+        /*text-shadow: 0 0 0 #FA1C16, 0 0 0 #FA1C16, 0 0 0 #FA1C16, 0 0 0 #FA1C16, 0 0 0 #FED128, .5vw .5vw .1vw #806914;*/
+        color: #FED128;
+    }
+    50% {
+        /*text-shadow: 0 0 0 #800E0B, 0 0 0 #800E0B, 0 0 0 #800E0B, 0 0 0 #800E0B, 0 0 0 #800E0B, .5vw .5vw .1vw #40340A;*/
+        color: #806914;
+    }
+}
+
+@media only screen and (min-width: medium) {
+    .menu {
+        display: none;
+    }
+}
