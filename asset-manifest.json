@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.123e448c.chunk.css",
+    "main.js": "/static/js/main.88199328.chunk.js",
+    "main.js.map": "/static/js/main.88199328.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e484b429.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e484b429.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.883ce9dc.chunk.js": "/static/js/2.883ce9dc.chunk.js",
+    "static/js/2.883ce9dc.chunk.js.map": "/static/js/2.883ce9dc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.921cedf0fe2b2da8ecf48839b1d6d2c9.js": "/precache-manifest.921cedf0fe2b2da8ecf48839b1d6d2c9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.123e448c.chunk.css.map": "/static/css/main.123e448c.chunk.css.map",
+    "static/js/2.883ce9dc.chunk.js.LICENSE": "/static/js/2.883ce9dc.chunk.js.LICENSE",
+    "static/media/App.css": "/static/media/Neon Bugler.3bfed734.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e484b429.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.883ce9dc.chunk.js",
+    "static/css/main.123e448c.chunk.css",
+    "static/js/main.88199328.chunk.js"
+  ]
+}
